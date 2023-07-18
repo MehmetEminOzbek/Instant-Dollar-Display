@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+height: 100vh;
+background: url(img/backgroudn-dollar.jpg);
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+}
+h1,h2{
+    position: absolute;
+}
+h1{
+    font-weight: 800;
+    font-size: 55px;
+    top: 44%;
+    left: 43%;
+}
+h2{
+    font-size: 30px;
+    top: 52%;
+    left: 47%;
+}
+
+#dolaricon2{
+    position: absolute;
+    width: 100px ;
+    height: 100px ;
+    top: 320px;
+    border-radius: 0px;
+left: 890px;
+}
